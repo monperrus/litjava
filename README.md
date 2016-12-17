@@ -1,6 +1,9 @@
 # litjava
 
-litjava is a literate programming tool in Java for Java. It is designed as follows:
+[Literate programming](https://en.wikipedia.org/wiki/Literate_programming) is a way of programming in a literate way, incl. typesetting. It usually requires tool support for transforming the literate program into an actual compilable or interpretable program. litjava is such a tool. 
+**The key idea of litjava is to write a Java program directly in Markdown.**
+
+It is designed with the following principles in mind:
 
 1. the literate format is a Markdown file, so that it's rendered directly in Github.
 1. it supports test-driven development, where the tests themselves are also literate programs.
